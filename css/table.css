@@ -1,0 +1,42 @@
+body {
+  margin: auto;
+  background: #A0DE90;
+  padding: 1em;
+  font-family: 'Vidaloka', Georgia, serif;
+}
+
+table {
+  empty-cells: show;
+  text-align: center;
+  background: #FFF2B1;
+  margin: 20px;
+  padding: auto;
+  font-size: 16px;
+}
+
+td, th {
+  border-width: 0 0 0 1px;
+  margin: 0;
+  text-align: center;
+  padding: 0.5em 1em;
+  font-family: 'News Cycle', Arial, sans-serif;
+}
+
+#link {
+  text-align: center;
+}
+
+@media screen and ( max-width: 750px) {
+  body {
+    width: 100%;
+    margin: auto;
+    padding: 1em 0;
+  }
+  p {
+    width: 90%;
+    margin: auto;
+  }
+  td, th {
+    padding: 0.2em 0.5em;
+  }
+}

@@ -1,0 +1,54 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: #A0DE90;
+  font-size: 100%;
+  line-height: 1.5em;
+}
+
+p {
+  margin: 20px 0px;
+  color: #000;
+  font-family: 'News Cycle', Arial, sans-serif;
+  font-size: 16px;
+}
+
+h1 {
+  text-align: center;
+  color: #000;
+  margin: 30px 0px;
+  font-family: 'Vidaloka', Georgia, serif;
+}
+
+#parks {
+  width: 90%;
+  margin: auto;
+}
+
+input {
+  width: 100%;
+  padding: 3px;
+  font-family: 'News Cycle', Arial, sans-serif;
+}
+
+.link {
+  text-align: center;
+}
+
+.announce {
+  text-align: center;
+  background: #FFF2B1;
+}
+
+@media screen and ( max-width: 750px ) {
+  body {
+    margin: 10px auto;
+    padding: 10px;
+}
+  #parks {
+    width: 100%;
+  }
+}
